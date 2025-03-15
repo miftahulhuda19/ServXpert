@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">ServXpert</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Beranda</a></li>
+                <li><a href="#services">Layanan</a></li>
+                <li><a href="#contact">Kontak</a></li>
+            </ul>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Cari layanan...">
+            <button id="search-btn">🔍</button>
+    </header>
+
+    <section id="home" class="hero">
+        <h1>ServXpert - Solusi Jasa Profesional dan Terjangkau</h1>
+        <p>Temukan apa yang kamu butuhkan di sini.</p>
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Cari..." />
+            <button id="search-btn">🔍</button>
+        </div>
+        
+        <section id="services" class="services">
+            <h2>Layanan Kami</h2>
+        
+            <div class="service-list">
+                <button class="service-btn" onclick="alert('Anda memilih layanan Cari & Pilih')">
+                    <h3>Cari & Pilih</h3>
+                    <p>Temukan Layanan Yang Paling Sesuai Untuk Anda.</p>
+                </button>
+                <button class="service-btn" onclick="alert('Anda memilih layanan Rating & Review')">
+                    <h3>Rating & Review</h3>
+                    <p>Cek Ulasan Pengguna Lain Sebelum Memilih Mitra Kerja.</p>
+                </button>
+                <button class="service-btn" onclick="alert('Anda memilih layanan Fleksibel')">
+                    <h3>Fleksibel</h3>
+                    <p>Tentukan Sendiri Waktu Kerjanya!</p>
+                </button>
+            </div>
+            <div class="service-list">
+                <button class="service-btn" onclick="alert('Anda memilih layanan Bantuan Pelanggan')">
+                    <h3>Bantuan Pelanggan</h3>
+                    <p>Dapatkan dukungan langsung untuk pertanyaan Anda.</p>
+                </button>
+                <button class="service-btn" onclick="alert('Anda memilih layanan Keamanan & Privasi')">
+                    <h3>Keamanan & Privasi</h3>
+                    <p>Pelajari bagaimana kami menjaga data dan privasi Anda.</p>
+                </button>
+                <button class="service-btn" onclick="alert('Anda memilih layanan Promosi & Diskon')">
+                    <h3>Promosi & Diskon</h3>
+                    <p>Cari tahu promo terbaru yang tersedia.</p>
+                </button>
+            </div>
+        </section>
+        
+        <style>
+            .search-container {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+        
+            #search-input {
+                width: 250px;
+                padding: 8px;
+                border: 1px solid #2c1e3d;
+                border-radius: 5px;
+                font-size: 16px;
+            }
+        
+            #search-btn {
+                background-color: #0e447e;
+                color: rgb(39, 7, 7);
+                border: none;
+                padding: 8px 12px;
+                border-radius: 5px;
+                cursor: pointer;
+                font-size: 16px;
+                margin-left: 5px;
+            }
+        
+            #search-btn:hover {
+                background-color: #0056b3;
+            }
+        
+            .service-list {
+                display: flex;
+                gap: 15px;
+                justify-content: center;
+                margin-bottom: 15px;
+            }
+        
+            .service-btn {
+                background-color: #007bff;
+                color: white;
+                padding: 15px;
+                border: none;
+                border-radius: 8px;
+                cursor: pointer;
+                font-size: 16px;
+                text-align: left;
+                width: 200px;
+            }
+        
+            .service-btn:hover {
+                background-color: #0056b3;
+            }
+        
+            .service-btn h3 {
+                margin: 0;
+                font-size: 18px;
+            }
+        
+            .service-btn p {
+                margin: 5px 0 0;
+                font-size: 14px;
+            }
+        </style>
+        
+                            
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Kontak Kami</h2>
+        <p>Email: info@website.com</p>
+        <p>Telepon: +62 812 3456 7890</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tombol di HTML</title>
+</head>
+<body>
+    <button onclick="alert('Tombol diklik!')">Klik Saya</button>
+
+</body>
+</html>
